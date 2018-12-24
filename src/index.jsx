@@ -9,22 +9,16 @@
 
 
 /**
- * Global Scripts
+ * Import app styles
  */
-// require('expose-loader?$!jquery');
+import './index.scss';
 
 
 /**
  * Import node_modules
  */
-import '../node_modules/font-awesome/scss/font-awesome.scss';
 import React from 'react';
 import ReactDom from 'react-dom';
-
-/**
- * Import app styles
- */
-import './index.scss';
 
 
 /**
@@ -33,4 +27,4 @@ import './index.scss';
 import Components from './components';
 const {App} = Components;
 
-ReactDom.render(<App title='Game System' />, document.getElementById('gs-application'));
+ReactDom.render(<App title='Techiankali' />, document.getElementById('techiankali-app'));

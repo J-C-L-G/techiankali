@@ -1,0 +1,6 @@
+{
+  "name": "Heroku: Node.js",
+  "description": "Node.js app using Express 4",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}

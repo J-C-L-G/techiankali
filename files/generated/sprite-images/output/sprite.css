@@ -1,0 +1,78 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-techiankali-logo-10 {
+  background-image: url(/assets/img/sprite.png);
+  background-position: -1088px -271px;
+  width: 45px;
+  height: 45px;
+}
+.icon-techiankali-logo-100 {
+  background-image: url(/assets/img/sprite.png);
+  background-position: 0px 0px;
+  width: 453px;
+  height: 452px;
+}
+.icon-techiankali-logo-20 {
+  background-image: url(/assets/img/sprite.png);
+  background-position: -1042px -497px;
+  width: 91px;
+  height: 90px;
+}
+.icon-techiankali-logo-30 {
+  background-image: url(/assets/img/sprite.png);
+  background-position: -861px -678px;
+  width: 136px;
+  height: 136px;
+}
+.icon-techiankali-logo-40 {
+  background-image: url(/assets/img/sprite.png);
+  background-position: -861px -497px;
+  width: 181px;
+  height: 181px;
+}
+.icon-techiankali-logo-50 {
+  background-image: url(/assets/img/sprite.png);
+  background-position: -861px -271px;
+  width: 227px;
+  height: 226px;
+}
+.icon-techiankali-logo-60 {
+  background-image: url(/assets/img/sprite.png);
+  background-position: -861px 0px;
+  width: 272px;
+  height: 271px;
+}
+.icon-techiankali-logo-70 {
+  background-image: url(/assets/img/sprite.png);
+  background-position: -362px -452px;
+  width: 317px;
+  height: 316px;
+}
+.icon-techiankali-logo-80 {
+  background-image: url(/assets/img/sprite.png);
+  background-position: 0px -452px;
+  width: 362px;
+  height: 362px;
+}
+.icon-techiankali-logo-90 {
+  background-image: url(/assets/img/sprite.png);
+  background-position: -453px 0px;
+  width: 408px;
+  height: 407px;
+}

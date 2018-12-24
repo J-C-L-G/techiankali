@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
-const HeaderPropTypes =  {
+const AppPropTypes =  {
     title: PropTypes.string.isRequired
 };
 
-export default HeaderPropTypes;
+export default AppPropTypes;

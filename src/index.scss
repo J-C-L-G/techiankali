@@ -1,5 +1,42 @@
-:global{
-  /* Font Awesome */
-  $fa-font-path: "~/font-awesome/fonts" !default;
-  @import '~font-awesome/scss/font-awesome.scss';
+:global {
+
+  /* Google Font */
+  @import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+  html {
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+
+    body {
+      padding: 0;
+      margin: 0;
+
+      * { box-sizing: border-box; }
+    }
+  }
+
+  .inline-block {
+    display: inline-block;
+  }
+
+  .width-50 {
+    width: 50%;
+  }
+
+  .width-100 {
+    width: 100%;
+  }
+
+  .height-50 {
+    height: 50%;
+  }
+
+  .height-100 {
+    height: 100%;
+  }
+
+  .aligned-top{
+    vertical-align: top;
+  }
+
 }

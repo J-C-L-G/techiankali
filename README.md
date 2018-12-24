@@ -1,11 +1,11 @@
-#**Frontend** - _**(GS)**_
-![GS](files/static/regular-images/gs-readme.png?raw=true)
+#**Frontend** - _**(Techiankali)**_
+![Techiankali](files/static/regular-images/techiankali-logo.jpg?raw=true)
 
 
 ##**1) Installing Dependencies**
 From the root folder
 ````
-GS-React
+techiankali
 ````
 Execute the following command to download the required dependencies for the project:
 >**NOTE:** **Node.js** & **NPM** are required to download the libraries and execute the project, make sure to have those installed before continue.

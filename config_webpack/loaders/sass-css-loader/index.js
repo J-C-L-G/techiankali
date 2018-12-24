@@ -4,7 +4,7 @@
  * General Configuration
  */
 const GENERAL_LOADER_CONFIGURATION = {
-    test: /\.s?[ac]ss$/
+    test: /\.s[ac]ss$/,
 };
 
 /**

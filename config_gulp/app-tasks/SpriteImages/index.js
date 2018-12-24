@@ -62,7 +62,7 @@ function ConsolidateImageAndStyles(done){
             },
             imgName: 'sprite.png',
             cssName: 'sprite.css',
-            imgPath: `${(IS_PRODUCTION) ? '/admin' : ''}${distributionPaths.IMAGES}/sprite.png`
+            imgPath: `${(IS_PRODUCTION) ? '' : ''}${distributionPaths.IMAGES}/sprite.png`
         }))
         .pipe(gulp.dest(generatedPaths.spriteImages.output))
         .on("end", done);

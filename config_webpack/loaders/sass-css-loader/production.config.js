@@ -9,7 +9,10 @@ const PRODUCTION_LOADER_CONFIGURATION = {
     use: [
         // Creates CSS file
         {
-            loader:  MiniCssExtractPlugin.loader
+            loader:  MiniCssExtractPlugin.loader,
+            options: {
+                publicPath: '/'
+            }
         },
         // Translates CSS into CommonJS
         {
@@ -17,8 +20,7 @@ const PRODUCTION_LOADER_CONFIGURATION = {
             options: {
                 modules: true,
                 sourceMap: true,
-                localIdentName: '[name]_[local]_[hash:base64:5]'
-
+                localIdentName: '[local]--[hash:base64:5]',
             }
         },
         // Compiles Sass to CSS

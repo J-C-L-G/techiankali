@@ -10,5 +10,5 @@ module.exports = [
     require('./babel-loader'),
     require('./sass-css-loader'),
     require('./expose-loader'),
-    require('./file-loader')
+    ...require('./file-loader')
 ];

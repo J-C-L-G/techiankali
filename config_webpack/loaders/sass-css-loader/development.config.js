@@ -17,8 +17,7 @@ const DEVELOPMENT_LOADER_CONFIGURATION = {
             options: {
                 modules: true,
                 sourceMap: true,
-                localIdentName: '[name]_[local]_[hash:base64:5]'
-
+                localIdentName: '[local]--[hash:base64:5]',
             }
         },
         // Compiles Sass to CSS
